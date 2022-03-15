@@ -1,9 +1,8 @@
 import './style/style.css'
 
-const calc = document.querySelector('button')!
 const out = document.querySelector('.out')!
 const input = document.querySelector('.input')!
-calc.addEventListener('click', calculate)
+input.addEventListener('change', calculate)
 
 function calculate(){
   if(!input.value) return out.textContent = "That ain't no items!"
