@@ -21,6 +21,11 @@ $alt: #1e272e;
   text-align: center;
   background: $prim;
   margin-top: 60px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  h1 {
+    margin-bottom: 20px;
+  }
 }
 
 .inputcont {
@@ -29,7 +34,8 @@ $alt: #1e272e;
   border: 2.5px solid;
   border-radius: 10px;
   input {
-    width: 98%;
+    width: 100%;
+    border-radius: 10px;
     height: 40px;
     font-size: 20px;
     border: none;

@@ -18,6 +18,12 @@
   text-align: center;
   background: #05c46b;
   margin-top: 60px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+#app h1 {
+  margin-bottom: 20px;
 }
 
 .inputcont {
@@ -28,7 +34,8 @@
 }
 
 .inputcont input {
-  width: 98%;
+  width: 100%;
+  border-radius: 10px;
   height: 40px;
   font-size: 20px;
   border: none;
