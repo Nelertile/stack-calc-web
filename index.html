@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="ico.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
     <title>MC Stack Calculator</title>
   </head>
   <script type="module" src="/src/main.ts"></script>
   <body>
-    <div id="app">
-      <h1>Minecraft Stack Calculator</h1>
-      <br>
-      <p>Itemcount</p>
-      <input type="number" name="itemcount" class="input">
-      <br>
-      <br>
-      <p class = "out">Output</p>
+    <div class="all">
+      <div id="app">
+        <h1 class="content">Minecraft Stack Calculator</h1>
+        <br>
+        <p class="content">Itemcount</p>
+        <div class="inputcont">
+          <input type="number" name="itemcount" id="input" class="content">
+        </div>
+        <br>
+        <br>
+        <p id = "out" class="content">Output</p>
+      </div>
     </div>
   </body>
 </html>

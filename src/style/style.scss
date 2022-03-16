@@ -1,16 +1,37 @@
-$bg: #2c3e50;
+$prim: #05c46b;
+$alt: #1e272e;
+
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: $alt;
+  background-size: cover;
+  color: $alt;
+}
+
+.content,
+.inputcont {
+  background: $prim;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: $bg;
+  background: $prim;
   margin-top: 60px;
 }
 
-input {
-  width: 200px;
-  height: 40px;
-  font-size: 20px;
+.inputcont {
+  margin-left: 450px;
+  margin-right: 450px;
+  border: 2.5px solid;
+  border-radius: 10px;
+  input {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+  }
 }
